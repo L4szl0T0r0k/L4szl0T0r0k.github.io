@@ -228,12 +228,13 @@ img {
 .home__title {
     align-self: flex-end;
     font-size: var(--big-font-size);
-    color: var(--white-color);
+    color: black;
     line-height: .8;
 }
 
 .home__title span {
-    text-shadow: 0 20px 25px rgba(0,0,0, .5);
+    font-size: var(--big-font-size);
+    color: orange;
 }
 
 .home__scroll {
@@ -577,6 +578,15 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+    .home__title {
+        font-size: 14rem;
+        width: 500px;
+        text-align: center;        
+    }
+
+    .home__title span {
+        font-size: 12.5rem;
+    }
     .section-title {
         font-size: 2rem;
     }
