@@ -49,6 +49,7 @@ function scrollActive(){
 $(document).ready(function() {
     $('#autoWidth').lightSlider({
         autoWidth:true,
+        auto:true,
         loop:true,
         speed:2000,
         pauseOnHover: true,
