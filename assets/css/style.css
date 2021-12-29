@@ -153,7 +153,7 @@ img {
         top: var(--header-height);
         right: -100%;
         width: 80%;
-        height: 30%;
+        height: 50%;
         padding: 2rem;
         background-color: rgba(255,255,255, .3);
         transition: .5s;
