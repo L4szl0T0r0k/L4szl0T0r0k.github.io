@@ -419,7 +419,7 @@ img {
 
 /* === Services === */
 .services {
-    background-color: green;
+    background-color: orange;
 }
 
 .services__container {
@@ -528,7 +528,7 @@ img {
 /* ==== portfolio ==== */
 
 .portfolio {
-    background-color: blue;
+    background-color: white;
 }
 
 .portfolio__container {
